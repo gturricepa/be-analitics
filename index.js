@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Configurar CORS
 app.use(cors({
-  origin: 'http://localhost:5173' // Permite apenas essa origem, ajuste conforme necessário
+  origin: '*' // Permite apenas essa origem, ajuste conforme necessário
 }));
 
 // Rotas da API
